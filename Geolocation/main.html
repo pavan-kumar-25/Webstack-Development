@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Animate Video Background Hero Section</title>
+    <link rel="stylesheet" type="text/css" href="./script.css">
+</head>
+
+<body>
+    <div class="newHero">
+        <h2>Hi this is Pavan</h2>
+        <p>This is an demo webpage to demonstrate location using a map and have designed the front page with some
+            graphics using svg.</p>
+        <div class="buttons">
+            <!--<button class="contactus">Contact us</button>-->
+            <a href="./geolocation.html">  <button class="Explore">Get location</button></a>
+        </div>
+        <video class="video-bg" autoplay muted loop>
+            <source
+                src="./countryside.mp4"
+                type="video/mp4">
+        </video>
+    </div>
+    <div class="waves">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28 " preserveAspectRatio="none">
+            <defs>
+                <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+            </defs>
+            <g class="wave1">
+                <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+            </g>
+            <g class="wave2">
+                <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+            </g>
+            <g class="wave3">
+                <use xlink:href="#wave-path" x="50" y="9" fill="#0F2027">
+            </g>
+        </svg>
+    </div>
+    <div class="credit">Made with <span style="color:tomato;font-size:20px;">❤ </span>by Pavan</div>
+
+</body>
+
+</html>
