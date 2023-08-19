@@ -1,0 +1,27 @@
+
+
+<?xml-model href="demoxsd.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<products>    
+    <product>
+      <id>1</id>
+      <name>Laptop</name>
+      <price>500</price>
+      <quantity>10</quantity>
+      <category>Electronics</category>
+    </product>
+    <product>
+      <id>2</id>
+      <name>T-Shirt</name>
+      <price>20</price>
+      <quantity>150</quantity>
+      <category>Clothing</category>
+    </product>
+    <product>
+      <id>3</id>
+      <name>Book</name>
+      <price>15</price>
+      <quantity>500</quantity>
+      <category>Books</category>
+    </product>
+  </products>
+  
