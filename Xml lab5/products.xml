@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="product_schema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<products>
+    <product>
+        <id>1</id>
+        <name>Laptop</name>
+        <price>999.90</price>
+        <description>gaming laptop with good spes</description>
+    </product>
+
+    <product>
+        <id>1</id>
+        <name>Mobile</name>
+        <price>500</price>
+        <description>best low budget mobile</description>
+    </product>
+
+    <product>
+        <id>3</id>
+        <name>Earphones</name>
+        <price>200</price>
+        <description>with good bass and noise cancellation</description>
+    </product>
+</products>
